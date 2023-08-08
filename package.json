@@ -1,0 +1,28 @@
+{
+  "name": "bigint-encoding",
+  "repository": "github:fabiospampinato/bigint-encoding",
+  "description": "BigInt encoding, a simple way to convert Uint8Arrays into BigInts, and vice versa.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "clean": "tsex clean",
+    "compile": "tsex compile",
+    "compile:watch": "tsex compile --watch",
+    "test": "tsex test",
+    "test:watch": "tsex test --watch",
+    "prepublishOnly": "tsex prepare"
+  },
+  "keywords": [
+    "bigint",
+    "uint8array",
+    "encoding"
+  ],
+  "devDependencies": {
+    "fava": "^0.2.1",
+    "tsex": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}
