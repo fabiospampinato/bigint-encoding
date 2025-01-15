@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/bigint-encoding",
   "description": "BigInt encoding, a simple way to convert Uint8Arrays into BigInts, and vice versa.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
