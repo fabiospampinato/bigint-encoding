@@ -5,7 +5,7 @@ BigInt encoding, a simple way to convert Uint8Arrays into BigInts, and vice vers
 ## Install
 
 ```sh
-npm install --save bigint-encoding
+npm install bigint-encoding
 ```
 
 ## Usage
